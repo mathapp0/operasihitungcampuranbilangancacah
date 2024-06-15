@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "soal": "Hasil dari 25 + ( 4 x 6 ) - 13 . . .",
+    "a": "36",
+    "b": "40",
+    "c": "46",
+    "d": "37",
+    "jawaban": "A"
+  },
+  {
+    "id": 2,
+    "soal": "Hitung nilai dari 77 - ( 19 + 8 ) x 2 . . .",
+    "a": "41",
+    "b": "23",
+    "c": "28",
+    "d": "39",
+    "jawaban": "B"
+  },
+  {
+    "id": 3,
+    "soal": "Hitung nilai dari 63 - ( 9 x 5 ) + 24 . . .",
+    "a": "55",
+    "b": "45",
+    "c": "52",
+    "d": "42",
+    "jawaban": "D"
+  },
+  {
+    "id": 4,
+    "soal": "Jika 20 + ( 6 x 7 ) - 9 adalah operasi yang harus diselesaikan, hasilnya adalah . . .",
+    "a": "51",
+    "b": "52",
+    "c": "53",
+    "d": "54",
+    "jawaban": "C"
+  },
+  {
+    "id": 5,
+    "soal": "Jika 92 - 4 x ( 5 + 3 ) adalah operasi yang harus diselesaikan, hasilnya adalah . . .",
+    "a": "70",
+    "b": "60",
+    "c": "50",
+    "d": "40",
+    "jawaban": "B"
+  },
+  {
+    "id": 6,
+    "soal": "Yang mana hasil operasi yang benar dari 924 - ( 312 + 156 ) ÷ 13  . . .",
+    "a": "869",
+    "b": "912",
+    "c": "888",
+    "d": "919",
+    "jawaban": "C"
+  },
+  {
+    "id": 7,
+    "soal": "Yang mana hasil operasi yang benar dari 540 + 50 x ( 46 + 32 ) . . .",
+    "a": "4500",
+    "b": "4332",
+    "c": "4128",
+    "d": "4440",
+    "jawaban": "D"
+  },
+  {
+    "id": 8,
+    "soal": "Jika 354 + ( 87 x 42 ) - 135 adalah operasi yang harus diselesaikan, hasilnya adalah . . .",
+    "a": "3873",
+    "b": "3393",
+    "c": "3525",
+    "d": "3722",
+    "jawaban": "A"
+  },
+  {
+    "id": 9,
+    "soal": "Hasil dari 850 : ( 200 - 150 ) adalah . . .",
+    "a": "19",
+    "b": "17",
+    "c": "25",
+    "d": "15",
+    "jawaban": "B"
+  },
+  {
+    "id": 10,
+    "soal": "Hasil dari 900 : ( 180 - 90 ) adalah . . .",
+    "a": "15",
+    "b": "19",
+    "c": "10",
+    "d": "11",
+    "jawaban": "C"
+  }
+]

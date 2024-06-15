@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "soal": "Hasil dari 7682 - ( 23 x 20 ) - 1324 adalah . . .",
+    "a": "5123",
+    "b": "5634",
+    "c": "5898",
+    "d": "5591",
+    "jawaban": "C"
+  },
+  {
+    "id": 2,
+    "soal": "Jika terdapat 96 murid dalam sebuah kelas dan mereka dibagi menjadi 8 kelompok yang sama besar, berapa jumlah murid dalam setiap kelompok ?",
+    "a": "12 Murid",
+    "b": "14 Murid",
+    "c": "16 Murid",
+    "d": "18 Murid",
+    "jawaban": "A"
+  },
+  {
+    "id": 3,
+    "soal": "Hasil dari 88 + ( 25 x 25 ) - 65 adalah . . .",
+    "a": "681",
+    "b": "677",
+    "c": "654",
+    "d": "648",
+    "jawaban": "D"
+  },
+  {
+    "id": 4,
+    "soal": "Hasil dari 451 + 377 - 612 adalah . . .",
+    "a": "216",
+    "b": "217",
+    "c": "218",
+    "d": "219",
+    "jawaban": "A"
+  },
+  {
+    "id": 5,
+    "soal": "Sebuah toko buku memiliki 120 buku cerita. Jika mereka menjual 45 buku dan kemudian menerima tambahan 30 buku, berapa jumlah buku cerita yang mereka miliki sekarang ?",
+    "a": "100 Buku",
+    "b": "105 Buku",
+    "c": "110 Buku",
+    "d": "115 Buku",
+    "jawaban": "B"
+  },
+  {
+    "id": 6,
+    "soal": "Hasil dari (10 + 1256 ) x 4 - 3471 adalah . . .",
+    "a": "1593",
+    "b": "1598",
+    "c": "1601",
+    "d": "1603",
+    "jawaban": "A"
+  },
+  {
+    "id": 7,
+    "soal": "Jika n = 105 x 4 : 5 - 22 , nilai n adalah . . .",
+    "a": "51",
+    "b": "54",
+    "c": "58",
+    "d": "62",
+    "jawaban": "D"
+  },
+  {
+    "id": 8,
+    "soal": "Hasil dari 985 + 23 x 4 - 135 adalah . . .",
+    "a": "943",
+    "b": "942",
+    "c": "955",
+    "d": "965",
+    "jawaban": "B"
+  },
+  {
+    "id": 9,
+    "soal": "Diketahui sebuah peternakan memiliki 60 ekor sapi. Jika mereka menjual separuh dari jumlah sapi yang mereka miliki dan kemudian membeli 25 ekor sapi lagi, berapa jumlah sapi yang mereka miliki sekarang ?",
+    "a": "85 Sapi",
+    "b": "70 Sapi",
+    "c": "65 Sapi",
+    "d": "55 Sapi",
+    "jawaban": "D"
+  },
+  {
+    "id": 10,
+    "soal": "Jika kamu memiliki 24 kelereng dan kamu memberikan 3 kelereng ke 4 temanmu, lalu membeli 10 kelereng lagi, berapa jumlah kelereng yang kamu miliki sekarang?",
+    "a": "25 Kelereng",
+    "b": "24 Kelereng",
+    "c": "22 Kelereng",
+    "d": "21 Kelereng",
+    "jawaban": "C"
+  },
+  {
+    "id": 11,
+    "soal": "Hasil dari 46 + 281 x 20 - 1772 adalah . . .",
+    "a": "3888",
+    "b": "3894",
+    "c": "3994",
+    "d": "3996",
+    "jawaban": "B"
+  },
+  {
+    "id": 12,
+    "soal": "Hasil dari (1596 - 1256 ) x 4 : 2 adalah . . .",
+    "a": "680",
+    "b": "681",
+    "c": "682",
+    "d": "683",
+    "jawaban": "A"
+  },
+  {
+    "id": 13,
+    "soal": "Hasil dari 10 x 15 + ( 258 + 526 ) adalah . . .",
+    "a": "930",
+    "b": "934",
+    "c": "965",
+    "d": "988",
+    "jawaban": "B"
+  },
+  {
+    "id": 14,
+    "soal": "Pak Budi memiliki 80 pensil dan Pak Budi memberikan setengah dari pensilnya kepada anak-anak di sekolah. Berapa jumlah pensil yang dimiliki Pak Budi sekarang ?",
+    "a": "35 Pensil",
+    "b": "40 Pensil",
+    "c": "45 Pensil",
+    "d": "50 Pensil",
+    "jawaban": "B"
+  },
+  {
+    "id": 15,
+    "soal": "Jika n = 566 - 122 : 2 + 25 , nilai n adalah . . .",
+    "a": "530",
+    "b": "540",
+    "c": "550",
+    "d": "560",
+    "jawaban": "A"
+  },
+  {
+    "id": 16,
+    "soal": "Jika n = ( 60 - 30 ) : 2 + 45 , nilai n adalah . . .",
+    "a": "50",
+    "b": "55",
+    "c": "60",
+    "d": "65",
+    "jawaban": "C"
+  },
+  {
+    "id": 17,
+    "soal": "Seorang petani memiliki 240 butir telur. Jika ia menjual separuh dari jumlah telur yang dimilikinya dan kemudian membeli 100 butir telur lagi, berapa jumlah telur yang dimilikinya sekarang? ",
+    "a": "220 Telur",
+    "b": "210 Telur",
+    "c": "200 Telur",
+    "d": "190 Telur",
+    "jawaban": "A"
+  },
+  {
+    "id": 18,
+    "soal": "Hasil dari 20 x 5 + ( 525 - 325 ) adalah . . .",
+    "a": "200",
+    "b": "250",
+    "c": "300",
+    "d": "350",
+    "jawaban": "C"
+  },
+  {
+    "id": 19,
+    "soal": "Hasil dari 50 x 20 - 330 - 128 adalah . . .",
+    "a": "539",
+    "b": "542",
+    "c": "545",
+    "d": "548",
+    "jawaban": "B"
+  },
+  {
+    "id": 20,
+    "soal": "Hasil dari 50 : 2 + 256 - 32 adalah . . .",
+    "a": "247",
+    "b": "248",
+    "c": "249",
+    "d": "250",
+    "jawaban": "C"
+  }
+]

@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Operasi Hitung Campuran Bilangan Cacah</title>
+    <!-- Favicon icon -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png"> -->
+    <!-- Pignose Calender -->
+    <link href="../assets/plugins/pg-calendar/css/pignose.calendar.min.css" rel="stylesheet">
+    <!-- Chartist -->
+    <link rel="stylesheet" href="../assets/plugins/chartist/css/chartist.min.css">
+    <link rel="stylesheet" href="../assets/plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css">
+    <!-- Custom Stylesheet -->
+    <link href="../assets/plugins/sweetalert/css/sweetalert.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body class="" style="overflow: hidden;">
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header bg-light">
+            <div class="brand-logo">
+                <a href="">
+                    <b class="logo-abbr text-dark"><i class="icon-home"></i></b>
+                    <span class="logo-compact"><i class="icon-home"></i></span>
+                    <span class="brand-title text-dark"><i class="icon-home"></i>
+                        MATEMATIKA
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header bg-secondary text-white">
+            <div class=" header-content clearfix">
+
+                <div class="nav-control" >
+                    <div class="hamburger">
+                        <span class="toggle-icon"><i class="icon-menu"></i></span>
+                    </div>
+                </div>
+                <div class="header-left">
+                    <h2 class="text-white mt-4 pl-3">Operasi Hitung Campuran Bilangan Cacah tanpa Tanda Kurung</h2>
+
+                </div>
+                <div class="header-right pt-3 pr-4">
+                    <b><span id="namalihat">Nama Siswa</span><i class="pl-3 ti-user"></i></b>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar bg-secondary" style="overflow: auto;">
+            <div class="nk-nav-scroll bg-secondary">
+                <ul class="metismenu bg-secondary" id="menu">
+                    <li class="nav-label text-black-100">Daftar Isi</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-notebook menu-icon"></i><span class="nav-text">Operasi Hitung Campuran
+                                Bilangan Cacah tanpa Tanda Kurung</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="pendahuluan1.html">Pendahuluan</a></li>
+                            <li><a href="materi1.html">Materi</a></li>
+                            <li><a href="kuis1.html">Kuis 1</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-notebook menu-icon"></i><span class="nav-text">Operasi Hitung Campuran
+                                Bilangan Cacah dengan Tanda Kurung</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="pendahuluan2.html">Pendahuluan</a></li>
+                            <li><a href="materi2.html">Materi</a></li>
+                            <li><a href="kuis2.html">Kuis 2</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-notebook menu-icon"></i><span class="nav-text">Menyelesaikan Masalah Operasi
+                                Hitung Campuran Bilangan Cacah</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="pendahuluan3.html">Pendahuluan</a></li>
+                            <li><a href="materi3.html">Materi</a></li>
+                            <li><a href="kuis3.html">Kuis 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="rangkuman.html" aria-expanded="false" hidden>
+                            <i class="icon-note menu-icon"></i><span class="nav-text">Rangkuman</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="evaluasi.html" aria-expanded="false">
+                            <i class="icon-note menu-icon"></i><span class="nav-text">Evaluasi</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="logout()" style="cursor: pointer;" class="bg-danger" aria-expanded="false">
+                            <i class="fa fa-sign-out"></i><span class="nav-text">Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+            <div class="container-fluid mt-1">
+                <div class="row">
+                    <div class="col-lg">
+                        <div class="card isicontent" style="height: 490px; width: 100%;">
+
+                            <div class="card-body">
+                                <div id="page1">
+                                    <div class="brs">
+                                        Ayo, kita perhatikan urutan operasi hitung campuran tanpa tanda kurung berikut.
+                                    </div>
+                                    <div class="judulrumus">
+                                        Operasi Hitung Campuran Bilangan Cacah Tanpa Tanda Kurung
+                                    </div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg text-center">
+                                            <img src="../assets/img/panah11.png" alt="">
+                                        </div>
+                                        <div class="col-lg text-center">
+                                            <img src="../assets/img/panah22.png" alt="">
+                                        </div>
+                                        <div class="col-lg text-center">
+                                            <img src="../assets/img/panah33.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg">
+                                            <div class="judulrumus">
+                                                Kali (x) dan bagi (:) sama kuat sehingga dikerjakan terlebih dahulu urut
+                                                dari kiri.
+                                            </div>
+                                        </div>
+                                        <div class="col-lg">
+                                            <div class="judulrumus">
+                                                Tambah (+) dan kurang (-) sama kuat sehingga dikerjakan urut dari kiri.
+                                            </div>
+                                        </div>
+                                        <div class="col-lg">
+                                            <div class="judulrumus">
+                                                Kali (x) dan bagi (:) lebih kuat daripada tambah (+) dan kurang (-)
+                                                sehingga
+                                                dikerjakan lebih dahulu.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 brs">
+                                        Kita sudah tahu urutan operasi hitung campuran tanpa tanda kurung. Sekarang,
+                                        kita
+                                        akan belajar mengerjakan soal operasi hitung campuran. Agar lebih jelas, mari
+                                        kita
+                                        perhatikan contoh-contoh berikut.
+                                    </div>
+                                    <div class="judulsoal">
+                                        Hasil dari 22 x 10 – 25 + 31 adalah . . .
+                                    </div>
+                                    <div class="hitungsoal">
+                                        <img src="../assets/img/1.png" height="275px" width="700px" alt="">
+                                    </div>
+                                </div>
+
+                                
+                                <div id="page2" hidden>
+                                    <div class="bordTujuan">Contoh Latihan</div>
+                                    <div id="soal1">
+                                        <div class="mt-2 bordTujuan">
+                                            Latihan 1
+                                        </div>
+                                        <div class="judulsoal">
+                                            Hasil dari 14 $\times$ 15 - 10 + 21 adalah . . .
+                                        </div>
+                                        <div class="hitungsoal">
+                                            <div class="carapengerjaan">
+                                                Cara pengerjaan:
+                                            </div>
+                                            <div class="soal">
+                                                14 $\times$ 15 - 10 + 21 =
+                                                <span id="soalmuncul1" hidden>
+                                                    <input type="text" class="kotakjawaban" id="soal1_1"> -
+                                                    <input type="text" class="kotakjawaban" id="soal1_2"> +
+                                                    <input type="text" class="kotakjawaban" id="soal1_3">
+                                                    <span id="btnjawab1"><a onclick="ceksoal1_1()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </span>
+                                                <center>
+                                                    <div id="option12" class="btn-popup mt-1" hidden>
+                                                        Operasi hitung manakah yang lebih dulu dikerjakan dari lanjutan pengerjaan soal diatas? <br>
+                                                        <a onclick="salah12('tambah12')" class="btn btn-info"
+                                                            id="tambah12"><b>+</b></a>
+                                                        <a onclick="benar12('kurang12')" class="btn btn-info"
+                                                            id="kurang12"><b>-</b></a>
+                                                    </div>
+                                                </center>
+                                                <div id="soalmuncul2" class="mt-1" hidden>
+                                                    <span class="text-white">14 $\times$ 15 - 10 + 21 </span>=
+                                                    <input type="text" class="kotakjawaban" id="soal1_4"> +
+                                                    <input type="text" class="kotakjawaban" id="soal1_5">
+                                                    <span id="btnjawab2"><a onclick="ceksoal1_2()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                                <div id="soalmuncul3" class="mt-1" hidden>
+                                                    <span class="text-white">14 $\times$ 15 - 10 + 21 </span>=
+                                                    <input type="text" class="kotakjawaban" id="soal1_6">
+                                                    <span id="btnjawab3"><a onclick="ceksoal1_3()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                            </div>
+                                            <div id="option1">
+                                                 Operasi hitung manakah yang lebih dulu dikerjakan? <br>
+                                                <a onclick="benar1()" class="btn btn-info" id="kali1">$\times$</a>
+                                                <a onclick="salah1('kurang1')" class="btn btn-info"
+                                                    id="kurang1">−</a>
+                                                <a onclick="salah1('tambah1')" class="btn btn-info"
+                                                    id="tambah1">+</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                    <div id="soal2" class="mt-2" hidden>
+                                        <div class="mt-2 bordTujuan">
+                                            Latihan 2
+                                        </div>
+                                        <div class="judulsoal">
+                                            Hasil dari 21 + 23 x 10 - 12 adalah . . .
+                                        </div>
+                                        <div class="hitungsoal">
+                                            <div class="carapengerjaan">
+                                                Cara pengerjaan:
+                                            </div>
+                                            <div class="soal">
+                                                21 + 23 $\times$ 10 - 12 =
+                                                <span id="soalmuncul2_1" hidden>
+                                                    <input type="text" class="kotakjawaban" id="soal2_1"> +
+                                                    <input type="text" class="kotakjawaban" id="soal2_2"> -
+                                                    <input type="text" class="kotakjawaban" id="soal2_3">
+                                                    <span id="btnjawab1"><a onclick="ceksoal2_1()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </span>
+                                                <center>
+                                                    <div id="option22" class="btn-popup mt-1" hidden>
+                                                        Operasi hitung manakah yang lebih dulu dikerjakan dari lanjutan pengerjaan soal diatas? <br>
+                                                        <a onclick="benar22('tambah22')" class="btn btn-info"
+                                                            id="tambah22"><b>+</b></a>
+                                                        <a onclick="salah22('kurang22')" class="btn btn-info"
+                                                            id="kurang22"><b>−</b></a>
+                                                    </div>
+                                                </center>
+                                                <div id="soalmuncul2_2" class="mt-1" hidden>
+                                                    <span class="text-white">21 + 23 $\times$ 10 - 12 </span>=
+                                                    <input type="text" class="kotakjawaban" id="soal2_4"> -
+                                                    <input type="text" class="kotakjawaban" id="soal2_5">
+                                                    <span id="btnjawab2"><a onclick="ceksoal2_2()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                                <div id="soalmuncul2_3" class="mt-1" hidden>
+                                                    <span class="text-white">21 + 23 $\times$ 10 - 12 </span>=
+                                                    <input type="text" class="kotakjawaban" id="soal2_6">
+                                                    <span id="btnjawab3"><a onclick="ceksoal2_3()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                            </div>
+                                            <div id="option2">
+                                                Operasi hitung manakah yang lebih dulu dikerjakan? <br>
+                                                <a onclick="salah2('kurang2_1')" class="btn btn-info"
+                                                    id="kurang2_1">−</a>
+                                                <a onclick="benar2()" class="btn btn-info" id="kali2_1">$\times$</a>
+                                                <a onclick="salah2('tambah2_1')" class="btn btn-info"
+                                                    id="tambah2_1">+</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="soal3" class="mt-2" hidden>
+                                        <div class="mt-2 bordTujuan">
+                                            Latihan 3
+                                        </div>
+                                        <div class="judulsoal">
+                                            Hasil dari 345 - 10 + 10 x 8 adalah . . .
+                                        </div>
+                                        <div class="hitungsoal">
+                                            <div class="carapengerjaan">
+                                                Cara pengerjaan:
+                                            </div>
+                                            <div class="soal">
+                                                345 - 10 + 10 $\times$ 8 =
+                                                <span id="soalmuncul3_1" hidden>
+                                                    <input type="text" class="kotakjawaban" id="soal3_1"> -
+                                                    <input type="text" class="kotakjawaban" id="soal3_2"> +
+                                                    <input type="text" class="kotakjawaban" id="soal3_3">
+                                                    <span id="btnjawab1"><a onclick="ceksoal3_1()"
+                                                        class="btn btn-success">Cek Jawaban</a></span>
+                                                </span>
+                                                <center>
+                                                    <div id="option33" class="btn-popup mt-1" hidden>
+                                                        Operasi hitung manakah yang lebih dulu dikerjakan dari lanjutan pengerjaan soal diatas? <br>
+                                                        <a onclick="salah33('tambah33')" class="btn btn-info"
+                                                            id="tambah33"><b>+</b></a>
+                                                        <a onclick="benar33('kurang33')" class="btn btn-info"
+                                                            id="kurang33"><b>−</b></a>
+                                                    </div>
+                                                </center>
+                                                <div id="soalmuncul3_2" class="mt-1" hidden>
+                                                    <span class="text-white">345 - 10 + 10 $\times$ 8 </span>=
+                                                    <input type="text" class="kotakjawaban" id="soal3_4"> +
+                                                    <input type="text" class="kotakjawaban" id="soal3_5">
+                                                    <span id="btnjawab2"><a onclick="ceksoal3_2()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                                <div id="soalmuncul3_3" class="mt-1" hidden>
+                                                    <span class="text-white">345 - 10 + 10 $\times$ 8 </span>=
+                                                    <input type="text" class="kotakjawaban" id="soal3_6">
+                                                    <span id="btnjawab3"><a onclick="ceksoal3_3()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                            </div>
+                                            <div id="option3">
+                                                Operasi hitung manakah yang lebih dulu dikerjakan? <br>
+                                                <a onclick="salah3('kurang3_1')" class="btn btn-info"
+                                                    id="kurang3_1">−</a>
+                                                <a onclick="benar3()" class="btn btn-info" id="kali3_1">$\times$</a>
+                                                <a onclick="salah3('tambah3_1')" class="btn btn-info"
+                                                    id="tambah3_1">+</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="soal4" class="mt-2" hidden>
+                                        <div class="mt-2 bordTujuan">
+                                            Latihan 4
+                                        </div>
+                                        <div class="judulsoal">
+                                            Hasil dari 9 x 20 - 48 + 12 adalah . . .
+                                        </div>
+                                        <div class="hitungsoal">
+                                            <div class="carapengerjaan">
+                                                Cara pengerjaan:
+                                            </div>
+                                            <div class="soal">
+                                                9 $\times$ 20 - 48 + 12 =
+                                                <span id="soalmuncul4_1" hidden>
+                                                    <input type="text" class="kotakjawaban" id="soal4_1"> -
+                                                    <input type="text" class="kotakjawaban" id="soal4_2"> +
+                                                    <input type="text" class="kotakjawaban" id="soal4_3">
+                                                    <span id="btnjawab1"><a onclick="ceksoal4_1()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </span>
+                                                <center>
+                                                    <div id="option44" class="btn-popup mt-1" hidden>
+                                                        Operasi hitung manakah yang lebih dulu dikerjakan dari lanjutan pengerjaan soal diatas? <br>
+                                                        <a onclick="benar44('kurang44')" class="btn btn-info"
+                                                        id="kurang44"><b>−</b></a>
+                                                        <a onclick="salah44('tambah44')" class="btn btn-info"
+                                                            id="tambah44"><b>+</b></a>
+                                                    </div>
+                                                </center>
+                                                <div id="soalmuncul4_2" class="mt-1" hidden>
+                                                    <span class="text-white">9 $\times$ 20 - 48 + 12 </span>=
+                                                    <input type="text" class="kotakjawaban" id="soal4_4"> +
+                                                    <input type="text" class="kotakjawaban" id="soal4_5">
+                                                    <span id="btnjawab2"><a onclick="ceksoal4_2()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                                <div id="soalmuncul4_3" class="mt-1" hidden>
+                                                    <span class="text-white">9 $\times$ 20 - 48 + 12 </span>=
+                                                    <input type="text" class="kotakjawaban" id="soal4_6">
+                                                    <span id="btnjawab3"><a onclick="ceksoal4_3()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                            </div>
+                                            <div id="option4">
+                                                Operasi hitung manakah yang lebih dulu dikerjakan? <br>
+                                                <a onclick="salah4('kurang4_1')" class="btn btn-info"
+                                                    id="kurang4_1">−</a>
+                                                <a onclick="benar4()" class="btn btn-info" id="kali4_1">$\times$</a>
+                                                <a onclick="salah4('tambah4_1')" class="btn btn-info"
+                                                    id="tambah4_1">+</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="soal5" class="mt-2" hidden>
+                                        <div class="mt-2 bordTujuan">
+                                            Latihan 5
+                                        </div>
+                                        <div class="judulsoal">
+                                            Hasil dari 582 - 11 $\times$ 30 + 22 adalah . . .
+                                        </div>
+                                        <div class="hitungsoal">
+                                            <div class="carapengerjaan">
+                                                Cara pengerjaan:
+                                            </div>
+                                            <div class="soal">
+                                                582 - 11 $\times$ 30 + 22 =
+                                                <span id="soalmuncul5_1" hidden>
+                                                    <input type="text" class="kotakjawaban" id="soal5_1"> -
+                                                    <input type="text" class="kotakjawaban" id="soal5_2"> +
+                                                    <input type="text" class="kotakjawaban" id="soal5_3">
+                                                    <span id="btnjawab1"><a onclick="ceksoal5_1()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </span>
+                                                <center>
+                                                    <div id="option55" class="btn-popup mt-1" hidden>
+                                                        Operasi hitung manakah yang lebih dulu dikerjakan dari lanjutan pengerjaan soal diatas? <br>
+                                                        <a onclick="salah55('tambah55')" class="btn btn-info"
+                                                            id="tambah55"><b>+</b></a>
+                                                        <a onclick="benar55('kurang55')" class="btn btn-info"
+                                                            id="kurang55"><b>−</b></a>
+                                                    </div>
+                                                </center>
+                                                <div id="soalmuncul5_2" class="mt-1" hidden>
+                                                    <span class="text-white">582 - 11 $\times$ 30 + 22 </span>=
+                                                    <input type="text" class="kotakjawaban" id="soal5_4"> +
+                                                    <input type="text" class="kotakjawaban" id="soal5_5">
+                                                    <span id="btnjawab2"><a onclick="ceksoal5_2()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                                <div id="soalmuncul5_3" class="mt-1" hidden>
+                                                    <span class="text-white">582 - 11 $\times$ 30 + 22 </span>=
+                                                    <input type="text" class="kotakjawaban" id="soal5_6">
+                                                    <span id="btnjawab3"><a onclick="ceksoal5_3()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                            </div>
+                                            <div id="option5">
+                                                Operasi hitung manakah yang lebih dulu dikerjakan? <br>
+                                                <a onclick="salah5('kurang5_1')" class="btn btn-info"
+                                                    id="kurang5_1">−</a>
+                                                <a onclick="benar5()" class="btn btn-info" id="kali5_1">$\times$</a>
+                                                <a onclick="salah5('tambah5_1')" class="btn btn-info"
+                                                    id="tambah5_1">+</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg">
+                        <div class="bootstrap-pagination" style="margin-top: -20px;">
+                            <nav>
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item disabled" id="btnkembali">
+                                        <a class="btn btn-danger" id="kembali" onclick="" tabindex="-1"><i
+                                                class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+                                            Kembali</a>
+                                    </li>
+
+                                    <li class="page-item" id="btnlanjut">
+                                        <a class="btn btn-success text-white" id="lanjut" onclick="page22();">Lanjut
+                                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li class="page-item" id="btnmaterilanjut" hidden>
+                                        <a class="btn btn-primary" id="materilanjut" href="kuis1.html">Kuis 1
+                                            <i class="fa fa-forward" aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- #/ container -->
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+
+
+        <!-- **********************************
+            Footer start
+        ***********************************--> -->
+        <!-- <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy;2023 <a href="https://themeforest.net/user/quixlab">Luriyan Apris Al-Banjari</a></p>
+            </div>
+        </div> -->
+        <!--**********************************
+            Footer end
+        ***********************************
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!-- Modal Benar -->
+    <div class="modal fade" id="ModalBenar" tabindex="-1" role="dialog" aria-labelledby="ModalBenarTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title text-center" id="ModalBenarTitle">Horeeee!</h5>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-dark">
+                        Pilihan anda <span class="text-success">benar</span> silahkan lanjut mengisi kotak jawaban yang
+                        telah disediakan
+                        </d>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--**********************************
+        Scripts
+    ***********************************-->
+        <script src="../assets/plugins/common/common.min.js"></script>
+        <script src="../assets/js/custom.min.js"></script>
+        <script src="../assets/js/settings.js"></script>
+        <script src="../assets/js/gleek.js"></script>
+        <script src="../assets/js/styleSwitcher.js"></script>
+
+        <!-- Chartjs -->
+        <script src="../assets/plugins/chart.js/Chart.bundle.min.js"></script>
+        <!-- Circle progress -->
+        <script src="../assets/plugins/circle-progress/circle-progress.min.js"></script>
+        <!-- Datamap -->
+        <script src="../assets/plugins/d3v3/index.js"></script>
+        <script src="../assets/plugins/topojson/topojson.min.js"></script>
+        <script src="../assets/plugins/datamaps/datamaps.world.min.js"></script>
+        <!-- Morrisjs -->
+        <script src="../assets/plugins/raphael/raphael.min.js"></script>
+        <script src="../assets/plugins/morris/morris.min.js"></script>
+        <!-- Pignose Calender -->
+        <script src="../assets/plugins/moment/moment.min.js"></script>
+        <script src="../assets/plugins/pg-calendar/js/pignose.calendar.min.js"></script>
+        <!-- ChartistJS -->
+        <script src="../assets/plugins/chartist/js/chartist.min.js"></script>
+        <script src="../assets/plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script>
+
+
+
+        <script src="../assets/js/dashboard/dashboard-1.js"></script>
+        <script src="../assets/plugins/sweetalert/js/sweetalert.min.js"></script>
+        <script src="../assets/plugins/sweetalert/js/sweetalert.init.js"></script>
+
+        <script src="../assets/js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Operasi Hitung Campuran Bilangan Cacah</title>
+    <!-- Favicon icon -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png"> -->
+    <!-- Pignose Calender -->
+    <link href="../assets/plugins/pg-calendar/css/pignose.calendar.min.css" rel="stylesheet">
+    <!-- Chartist -->
+    <link rel="stylesheet" href="../assets/plugins/chartist/css/chartist.min.css">
+    <link rel="stylesheet" href="../assets/plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css">
+    <!-- Custom Stylesheet -->
+    <link href="../assets/plugins/sweetalert/css/sweetalert.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body class="" style="overflow: hidden;">
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header bg-light">
+            <div class="brand-logo">
+                <a href="">
+                    <b class="logo-abbr text-dark"><i class="icon-home"></i></b>
+                    <span class="logo-compact"><i class="icon-home"></i></span>
+                    <span class="brand-title text-dark"><i class="icon-home"></i>
+                        MATEMATIKA
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header bg-secondary text-white">
+            <div class=" header-content clearfix">
+
+                <div class="nav-control">
+                    <div class="hamburger">
+                        <span class="toggle-icon"><i class="icon-menu"></i></span>
+                    </div>
+                </div>
+                <div class="header-left">
+                    <h2 class="text-white mt-4 pl-3">Menyelesaikan Masalah Operasi
+                        Hitung Campuran Bilangan Cacah</h2>
+
+                </div>
+                <div class="header-right pt-3 pr-4">
+                    <b><span id="namalihat">Nama Siswa</span><i class="pl-3 ti-user"></i></b>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar bg-secondary" style="overflow: auto;">
+            <div class="nk-nav-scroll bg-secondary">
+                <ul class="metismenu bg-secondary" id="menu">
+                    <li class="nav-label text-black-100">Daftar Isi</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-notebook menu-icon"></i><span class="nav-text">Operasi Hitung Campuran
+                                Bilangan Cacah tanpa Tanda Kurung</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="pendahuluan1.html">Pendahuluan</a></li>
+                            <li><a href="materi1.html">Materi</a></li>
+                            <li><a href="kuis1.html">Kuis 1</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-notebook menu-icon"></i><span class="nav-text">Operasi Hitung Campuran
+                                Bilangan Cacah dengan Tanda Kurung</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="pendahuluan2.html">Pendahuluan</a></li>
+                            <li><a href="materi2.html">Materi</a></li>
+                            <li><a href="kuis2.html">Kuis 2</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-notebook menu-icon"></i><span class="nav-text">Menyelesaikan Masalah Operasi
+                                Hitung Campuran Bilangan Cacah</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="pendahuluan3.html">Pendahuluan</a></li>
+                            <li><a href="materi3.html">Materi</a></li>
+                            <li><a href="kuis3.html">Kuis 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="rangkuman.html" aria-expanded="false" hidden>
+                            <i class="icon-note menu-icon"></i><span class="nav-text">Rangkuman</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="evaluasi.html" aria-expanded="false">
+                            <i class="icon-note menu-icon"></i><span class="nav-text">Evaluasi</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a onclick="logout()" style="cursor: pointer;" class="bg-danger" aria-expanded="false">
+                            <i class="fa fa-sign-out"></i><span class="nav-text">Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+            <div class="container-fluid mt-1">
+                <div class="row">
+                    <div class="col-lg">
+                        <div class="card isicontent" style="height: 490px; width: 100%;">
+
+                            <div class="card-body">
+                                <div id="page1">
+                                    <div class="brs">
+                                        Masalah yang berkaitan dengan operasi hitung campuran bilangan cacah dapat kita
+                                        temukan dalam kehidupan sehari-hari. Kita dapat menyelesaikan masalah tersebut
+                                        dengan mengingat urutan operasi hitung campuran. Sekarang, kita akan belajar
+                                        menyelesaikan masalah dengan mengerjakan soal cerita. Ayo, kita coba perhatikan.
+                                    </div>
+                                    <div class="bords">
+                                        Contoh Soal
+                                    </div>
+                                    <div class="bordsoalbg">
+                                        <div class="brss">
+                                            <b>
+                                                Soal Cerita:
+                                            </b>
+                                        </div>
+                                        <div class="brs">
+                                            Eko berkunjung ke gudang penyimpanan hasil panen milik pamannya. Terdapat
+                                            125 karung beras, 70 karung kedelai, dan 69 karung jagung di dalam gudang.
+                                            Setiap karung beratnya 50 kg. Gudang tersebut akan diperbaiki sehingga
+                                            seluruh hasil panen perlu dipindahkan di tempat penyimpanan sementara.
+                                            Seluruh hasil panen tersebut dipindahkan menggunakan 6 truk secara
+                                            bersamaan. Berapa kg muatan tiap truk?
+                                        </div>
+                                        <div class="brss">
+                                            <b>
+                                                Diketahui:
+                                            </b>
+                                        </div>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    Banyak karung beras
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    125 karung.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Banyak karung kedelai
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    70 karung.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Banyak karung jagung
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    69 karung.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Berat masing-masing karung
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    50 kg.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Banyak truk
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    6 truk.
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="bordsoal">
+                                        <div class="brss">
+                                            <b>
+                                                Ditanyakan :
+                                            </b>
+                                        </div>
+                                        <div class="brss">
+                                            Berat muatan tiap truk dalam kg.
+                                        </div>
+                                        <div class="brss">
+                                            <b>
+                                                Jawab:
+                                            </b>
+                                        </div>
+                                        <div class="brss">
+                                            Berat muatan tiap truk = jumlah seluruh karung x berat karung : banyak truk
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-3"></div>
+                                            <div class="col-lg">
+                                                = (125 + 70 + 69) x 50 : 6 <br>
+                                                = 264 x 50 : 6 <br>
+                                                = <b>2.200 kg</b>
+                                            </div>
+                                        </div>
+                                        <div class="brss">
+                                            Jadi, berat muatan tiap truk sebanyak <b>2.200 kg</b>.
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div id="page2" hidden>
+                                <div id="soal31" class="mt-2">
+                                    <div class="mt-2 bords">
+                                        Latihan 1
+                                    </div>
+                                    <div class="bordsoalbg">
+                                        <div class="brss">
+                                            <b>
+                                                Soal Cerita:
+                                            </b>
+                                        </div>
+                                        <div class="brs">
+                                            Pak Mandor berkunjung ke tempat gedung pembangunan perumahan. Terdapat 1000
+                                            karung semen, 750 karung pasir, dan 750 karung pasir putih di dalam gudang.
+                                            Setiap karung beratnya 50 kg. Semua bahan di Gudang mau dibawa ke tempat
+                                            pembangunan perumahan tersebut sehingga seluruh barang di gudang perlu
+                                            dipindahkan ke tempat pembangunan perumahan. Seluruh barang tersebut
+                                            dipindahkan menggunakan 200 truk secara bersamaan. Berapa kg muatan tiap
+                                            truk?
+                                        </div>
+                                        <div class="brss">
+                                            <b>
+                                                Diketahui:
+                                            </b>
+                                        </div>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    Banyak karung semen
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    1000 karung.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Banyak karung pasir
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    750 karung.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Banyak karung pasir putih
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    750 karung.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Berat masing-masing karung
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    50 kg.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Banyak truk
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    200 truk.
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="bordsoal">
+                                        <div class="brss">
+                                            <b>
+                                                Ditanyakan :
+                                            </b>
+                                        </div>
+                                        <div class="brss">
+                                            Berat muatan tiap truk dalam kg.
+                                        </div>
+                                        <div class="brss">
+                                            <b>
+                                                Jawab:
+                                            </b>
+                                        </div>
+                                        <div class="brss">
+                                            Berat muatan tiap truk = jumlah seluruh karung x berat karung : banyak truk
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-3"></div>
+                                            <div class="col-lg">
+                                                <div id="soalmuncul1">= (<input type="text" class="kotakjawaban"
+                                                        id="soal31_1"> + <input type="text" class="kotakjawaban"
+                                                        id="soal31_2"> + <input type="text" class="kotakjawaban"
+                                                        id="soal31_3">) x <input type="text" class="kotakjawaban"
+                                                        id="soal31_4"> : <input type="text" class="kotakjawaban"
+                                                        id="soal31_5">
+                                                    <span id="btnjawab1"><a onclick="ceksoal31_1()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                                <center>
+                                                    <div id="option331" class="btn-popup mt-1" hidden>
+                                                        Operasi hitung manakah yang lebih dulu dikerjakan dari lanjutan pengerjaan soal diatas? <br>
+                                                        <a onclick="benar331()" class="btn btn-secondary" id="kurung331">(
+                                                            )</a>
+                                                        <a onclick="salah331('kali331')" class="btn btn-secondary"
+                                                            id="kali331">x</a>
+                                                        <a onclick="salah331('bagi331')" class="btn btn-secondary"
+                                                            id="bagi331">:</a>
+                                                    </div>
+                                                </center>
+                                                <div id="soalmuncul2" class="mt-1" hidden>
+                                                    = <input type="text" class="kotakjawaban" id="soal31_6"> x <input
+                                                        type="text" class="kotakjawaban" id="soal31_7"> : <input
+                                                        type="text" class="kotakjawaban" id="soal31_8">
+                                                    <span id="btnjawab2"><a onclick="ceksoal31_2()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                                <center>
+                                                    <div id="option332" class="btn-popup mt-1" hidden>
+                                                        Operasi hitung manakah yang lebih dulu dikerjakan dari lanjutan pengerjaan soal diatas? <br>
+                                                        <a onclick="salah332('bagi332')" class="btn btn-info"
+                                                            id="bagi332"><b>:</b></a>
+                                                        <a onclick="benar332('kali332')" class="btn btn-info"
+                                                            id="kali332"><b>x</b></a>
+                                                    </div>
+                                                </center>
+                                                <div id="soalmuncul3" class="mt-1" hidden>
+                                                    = <input type="text" class="kotakjawaban" id="soal31_9"> : <input
+                                                        type="text" class="kotakjawaban" id="soal31_10"> 
+                                                    <span id="btnjawab3"><a onclick="ceksoal31_3()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                                <div id="soalmuncul4" class="mt-1" hidden>
+                                                    = <input type="text" class="kotakjawaban" id="soal31_11">
+                                                    <span id="btnjawab4"><a onclick="ceksoal31_4()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="brss" id="hasil31" hidden>
+                                            Jadi, berat muatan tiap truk sebanyak <b>625 kg</b>.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="soal32" class="mt-2" hidden>
+                                    <div class="mt-2 bords">
+                                        Latihan 2
+                                    </div>
+                                    <div class="bordsoalbg">
+                                        <div class="brss">
+                                            <b>
+                                                Soal Cerita:
+                                            </b>
+                                        </div>
+                                        <div class="brs">
+                                            Ahmad ingin memperbaiki rumah. Dia ingin membeli 200 karung semen, 150
+                                            karung pasir, dan 150 karung pasir putih. Setiap karung beratnya 50 kg.
+                                            Ahmad menggunakan truk untuk membawa ke rumahnya dengan banyak truknya 10
+                                            secara bersamaan. Berapa kg muatan tiap truk?
+                                        </div>
+                                        <div class="brss">
+                                            <b>
+                                                Diketahui:
+                                            </b>
+                                        </div>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    Banyak karung semen
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    200 karung.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Banyak karung pasir
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    150 karung.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Banyak karung pasir putih
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    150 karung.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Berat masing-masing karung
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    50 kg.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Banyak truk
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    10 truk.
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="bordsoal">
+                                        <div class="brss">
+                                            <b>
+                                                Ditanyakan :
+                                            </b>
+                                        </div>
+                                        <div class="brss">
+                                            Berat muatan tiap truk dalam kg.
+                                        </div>
+                                        <div class="brss">
+                                            <b>
+                                                Jawab:
+                                            </b>
+                                        </div>
+                                        <div class="brss">
+                                            Berat muatan tiap truk = jumlah seluruh karung x berat karung : banyak truk
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-3"></div>
+                                            <div class="col-lg">
+                                                <div id="soalmuncul32_1">= (<input type="text"
+                                                        class="kotakjawaban" id="soal32_1"> + <input type="text"
+                                                        class="kotakjawaban" id="soal32_2"> + <input type="text"
+                                                        class="kotakjawaban" id="soal32_3">) x <input type="text"
+                                                        class="kotakjawaban" id="soal32_4"> : <input type="text"
+                                                        class="kotakjawaban" id="soal32_5">
+                                                    <span id="btnjawab32_1"><a onclick="ceksoal32_1()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                                <center>
+                                                    <div id="option3_2" class="btn-popup mt-1" hidden>
+                                                        Operasi hitung manakah yang lebih dulu dikerjakan? <br>
+                                                        <a onclick="benar3_2()" class="btn btn-secondary" id="kurung1_2">(
+                                                            )</a>
+                                                        <a onclick="salah3_2('kali3_2')" class="btn btn-secondary"
+                                                            id="kali3_2">x</a>
+                                                        <a onclick="salah3_2('bagi3_2')" class="btn btn-secondary"
+                                                            id="bagi3_2">:</a>
+                                                    </div>
+                                                </center>
+                                                <div id="soalmuncul32_2" class="mt-1" hidden>
+                                                    = <input type="text" class="kotakjawaban" id="soal32_6"> x <input
+                                                        type="text" class="kotakjawaban" id="soal32_7"> : <input
+                                                        type="text" class="kotakjawaban" id="soal32_8">
+                                                    <span id="btnjawab32_2"><a onclick="ceksoal32_2()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                                <center>
+                                                    <div id="option3_21" class="btn-popup mt-1" hidden>
+                                                        Operasi hitung manakah yang lebih dulu dikerjakan dari lanjutan pengerjaan soal diatas? <br>
+                                                        <a onclick="benar3_21('kali3_21')" class="btn btn-secondary"
+                                                            id="kali331">x</a>
+                                                        <a onclick="salah3_21('bagi3_21')" class="btn btn-secondary"
+                                                            id="bagi3_21">:</a>
+                                                    </div>
+                                                </center>
+                                                <div id="soalmuncul32_3" class="mt-1" hidden>
+                                                    = <input type="text" class="kotakjawaban" id="soal32_9"> : <input
+                                                        type="text" class="kotakjawaban" id="soal32_10"> 
+                                                    <span id="btnjawab32_3"><a onclick="ceksoal32_3()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                                <div id="soalmuncul32_4" class="mt-1" hidden>
+                                                    = <input type="text" class="kotakjawaban" id="soal32_11">
+                                                    <span id="btnjawab32_4"><a onclick="ceksoal32_4()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="brss" id="hasil32" hidden>
+                                            Jadi, berat muatan tiap truk sebanyak <b>2.500 kg</b>.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="soal33" class="mt-2" hidden>
+                                    <div class="mt-2 bords">
+                                        Latihan 3
+                                    </div>
+                                    <div class="bordsoalbg">
+                                        <div class="brss">
+                                            <b>
+                                                Soal Cerita:
+                                            </b>
+                                        </div>
+                                        <div class="brs">
+                                            Bu Siti ingin membeli bahan untuk jualan es buah. Dia ingin membeli 100 box buah jeruk, 150 box buah mangga, dan 100 box buah naga. 
+                                            Setiap box buah beratnya 20 kg. Bu Siti menggunakan mobil pickup untuk membawa barang belanjaan ke rumahnya dengan banyak mobil pickupnya 10 secara bersamaan. 
+                                            Berapa kg muatan tiap pick up?
+                                        </div>
+                                        <div class="brss">
+                                            <b>
+                                                Diketahui:
+                                            </b>
+                                        </div>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    Banyak box buah jeruk
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    100 box.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Banyak box buah mangga
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    150 box.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Banyak box buah naga
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    100 karung.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Berat masing-masing box buah
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    20 kg.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Banyak pickup
+                                                </td>
+                                                <td class="pl-2 pr-2">
+                                                    =
+                                                </td>
+                                                <td>
+                                                    10 pickup.
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="bordsoal">
+                                        <div class="brss">
+                                            <b>
+                                                Ditanyakan :
+                                            </b>
+                                        </div>
+                                        <div class="brss">
+                                            Berat muatan tiap pickup dalam kg.
+                                        </div>
+                                        <div class="brss">
+                                            <b>
+                                                Jawab:
+                                            </b>
+                                        </div>
+                                        <div class="brss">
+                                            Berat muatan tiap pickup = jumlah seluruh karung x berat karung : banyak
+                                            pickup
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-3"></div>
+                                            <div class="col-lg">
+                                                <div id="soalmuncul33_1">= (<input type="text"
+                                                        class="kotakjawaban" id="soal33_1"> + <input type="text"
+                                                        class="kotakjawaban" id="soal33_2"> + <input type="text"
+                                                        class="kotakjawaban" id="soal33_3">) x <input type="text"
+                                                        class="kotakjawaban" id="soal33_4"> : <input type="text"
+                                                        class="kotakjawaban" id="soal33_5">
+                                                    <span id="btnjawab33_1"><a onclick="ceksoal33_1()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                                <center>
+                                                    <div id="option3_3" class="btn-popup mt-1" hidden>
+                                                        Operasi hitung manakah yang lebih dulu dikerjakan? <br>
+                                                        <a onclick="benar3_3()" class="btn btn-secondary" id="kurung3_3">(
+                                                            )</a>
+                                                        <a onclick="salah3_3('kali3_3')" class="btn btn-secondary"
+                                                            id="kali3_3">x</a>
+                                                        <a onclick="salah3_3('bagi3_3')" class="btn btn-secondary"
+                                                            id="bagi3_3">:</a>
+                                                    </div>
+                                                </center>
+                                                <div id="soalmuncul33_2" class="mt-1" hidden>
+                                                    = <input type="text" class="kotakjawaban" id="soal33_6"> x <input
+                                                        type="text" class="kotakjawaban" id="soal33_7"> : <input
+                                                        type="text" class="kotakjawaban" id="soal33_8">
+                                                    <span id="btnjawab33_2"><a onclick="ceksoal33_2()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                                <center>
+                                                    <div id="option3_31" class="btn-popup mt-1" hidden>
+                                                        Operasi hitung manakah yang lebih dulu dikerjakan dari lanjutan pengerjaan soal diatas? <br>
+                                                        <a onclick="benar3_31('kali3_31')" class="btn btn-secondary"
+                                                            id="kali3_31">x</a>
+                                                        <a onclick="salah3_31('bagi3_31')" class="btn btn-secondary"
+                                                            id="bagi3_31">:</a>
+                                                    </div>
+                                                </center>
+                                                <div id="soalmuncul33_3" class="mt-1" hidden>
+                                                    = <input type="text" class="kotakjawaban" id="soal33_9"> : <input
+                                                        type="text" class="kotakjawaban" id="soal33_10">
+                                                    <span id="btnjawab33_3"><a onclick="ceksoal33_3()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                                <div id="soalmuncul33_4" class="mt-1" hidden>
+                                                    = <input type="text" class="kotakjawaban" id="soal33_11">
+                                                    <span id="btnjawab33_4"><a onclick="ceksoal33_4()"
+                                                            class="btn btn-success">Cek Jawaban</a></span>
+                                                </div>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="brss" id="hasil33" hidden>
+                                            Jadi, berat muatan tiap pickup sebanyak <b>700 kg</b>.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-lg">
+                        <div class="bootstrap-pagination" style="margin-top: -20px;">
+                            <nav>
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item disabled" id="btnkembali">
+                                        <a class="btn btn-danger" id="kembali" onclick="" tabindex="-1"><i
+                                                class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+                                            Kembali</a>
+                                    </li>
+
+                                    <li class="page-item" id="btnlanjut">
+                                        <a class="btn btn-success text-white" id="lanjut" onclick="page22();">Lanjut
+                                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li class="page-item" id="btnmaterilanjut" hidden>
+                                        <a class="btn btn-primary" id="materilanjut" href="kuis3.html">Kuis 3
+                                            <i class="fa fa-forward" aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- #/ container -->
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+
+
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <!-- <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy;2023 <a href="https://themeforest.net/user/quixlab">Luriyan Apris Al-Banjari</a></p>
+            </div>
+        </div> -->
+        <!--**********************************
+            Footer end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!-- Modal Benar -->
+    <div class="modal fade" id="ModalBenar" tabindex="-1" role="dialog" aria-labelledby="ModalBenarTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title text-center" id="ModalBenarTitle">Horeeee!</h5>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-dark">
+                        Pilihan anda <span class="text-success">benar</span> silahkan lanjut mengisi kotak jawaban yang
+                        telah disediakan
+                        </d>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--**********************************
+        Scripts
+    ***********************************-->
+        <script src="../assets/plugins/common/common.min.js"></script>
+        <script src="../assets/js/custom.min.js"></script>
+        <script src="../assets/js/settings.js"></script>
+        <script src="../assets/js/gleek.js"></script>
+        <script src="../assets/js/styleSwitcher.js"></script>
+
+        <!-- Chartjs -->
+        <script src="../assets/plugins/chart.js/Chart.bundle.min.js"></script>
+        <!-- Circle progress -->
+        <script src="../assets/plugins/circle-progress/circle-progress.min.js"></script>
+        <!-- Datamap -->
+        <script src="../assets/plugins/d3v3/index.js"></script>
+        <script src="../assets/plugins/topojson/topojson.min.js"></script>
+        <script src="../assets/plugins/datamaps/datamaps.world.min.js"></script>
+        <!-- Morrisjs -->
+        <script src="../assets/plugins/raphael/raphael.min.js"></script>
+        <script src="../assets/plugins/morris/morris.min.js"></script>
+        <!-- Pignose Calender -->
+        <script src="../assets/plugins/moment/moment.min.js"></script>
+        <script src="../assets/plugins/pg-calendar/js/pignose.calendar.min.js"></script>
+        <!-- ChartistJS -->
+        <script src="../assets/plugins/chartist/js/chartist.min.js"></script>
+        <script src="../assets/plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script>
+
+
+
+        <script src="../assets/js/dashboard/dashboard-1.js"></script>
+        <script src="../assets/plugins/sweetalert/js/sweetalert.min.js"></script>
+        <script src="../assets/plugins/sweetalert/js/sweetalert.init.js"></script>
+
+        <script src="../assets/js/script.js"></script>
+
+</body>
+
+</html>

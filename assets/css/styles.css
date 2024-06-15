@@ -1,0 +1,518 @@
+.brs {
+    text-indent: 0.5in;
+    text-align: justify;
+    font-size: 15pt;
+}
+
+.bord {
+    border-left: 6px solid #4472C4;
+    background-color: #5077AE;
+    border-radius: 0px 10px 0px 10px;
+    width: 70%;
+    color: #fff;
+    padding: 5px;
+}
+
+.bordTujuan {
+    border-left: 6px solid #4472C4;
+    background-color: #5077AE;
+    border-radius: 0px 10px 0px 10px;
+    width: 30%;
+    color: #fff;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.bords {
+    border: 6px solid #4472C4;
+    border-radius: 10px 10px 0px 0px;
+    width: 50%;
+    /* color: #fff; */
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.bordsoal {
+    border: 2px solid #4472C4;
+    padding: 10px;
+    border-radius: 0px 0px 10px 0px;
+    margin-left: 5px;
+}
+
+.bordsoalbg {
+    border: 2px solid #4472C4;
+    background-color: #4472C4;
+    color: white;
+    padding: 10px;
+    border-radius: 0px 10px 0px 0px;
+    margin-left: 5px;
+}
+
+.bordU {
+    border: 2px solid #4472C4;
+    padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+    margin-left: 5px;
+}
+
+.bordU2 {
+    border: 2px dashed #4472C4;
+    padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+    margin-left: 5px;
+}
+
+.judulrumus {
+    border: 1px solid #4472C4;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #4472C4;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 15pt;
+}
+
+.judulsoal {
+    border: 1px solid #ffae00;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #ffae00;
+    /* text-align: center; */
+    padding: 10px;
+    color: #fff;
+    font-size: 15pt;
+}
+
+.hitungsoal {
+    border: 1px solid #ffae00;
+    border-radius: 0px 0px 10px 10px;
+    /* background-color: #ffae00; */
+    /* text-align: center; */
+    padding: 10px;
+    /* color: #fff; */
+    font-size: 15pt;
+}
+
+.kotakjawaban {
+    width: 40px;
+}
+
+.simbol>ul>li {
+    list-style: circle;
+    color: black;
+    margin-left: 40px;
+    font-size: 15pt;
+}
+
+.simbol2>ul>li {
+    list-style: circle;
+    color: black;
+    margin-left: 40px;
+    /* font-size: 15pt; */
+}
+
+.angka>ol>li {
+    list-style: decimal;
+    color: black;
+    margin-left: 40px;
+    font-size: 15pt;
+}
+
+.abjad>ol>li {
+    list-style: lower-alpha;
+    color: black;
+    margin-left: 40px;
+    font-size: 15pt;
+}
+
+.figure-caption {
+    color: black;
+}
+
+.content {
+    color: black;
+}
+
+.isicontent {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* font-family: candara; */
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: justify;
+    float: left;
+    color: black;
+}
+
+.btnkuis {
+    width: 45px;
+    height: 45px;
+    padding: 0px;
+}
+
+.drag1 {
+    margin: 5px;
+    padding: 3px;
+    width: 100px;
+    border: none;
+    /* border: 1px solid green;
+    background-color: green; */
+    color: white;
+}
+
+.div1 {
+    min-width: 100px;
+    min-height: 40px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.kotakDrag {
+    min-width: 150px;
+    min-height: 50px;
+    padding: 2px;
+    margin-top: 5px;
+    border: 1px solid #000;
+}
+
+.pembahasan {
+    border: 2px dotted #0B4619;
+}
+
+.warna-danger {
+    border-color: red;
+    background-color: red;
+    color: white;
+}
+
+.warna-success {
+    border-color: green;
+    background-color: green;
+    color: white;
+}
+
+.zoomgambar {
+    display: inline-block;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.zoomgambar:hover {
+    transform: scale(1.3);
+    margin-bottom: 50px;
+}
+
+.gradasi {
+    font-family: arial black;
+    font-size: 50px;
+    -webkit-text-stroke: 3px grey;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0ca50f), to(#DDBF18));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-radius {
+    border-radius: 40px;
+}
+
+.bg-judul {
+    background-image: url('../images/bg_header.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.bg-konten {
+    background-image: url('../images/bg_header.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.bg-awal {
+    background-image: url('../images/bg-awal.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.bg-awan {
+    background-image: url('../images/bg-awan.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 30px 30px 30px 30px;
+    opacity: 70%;
+}
+
+.bg-awan-login {
+    background-image: url('../images/bg-awan.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 30px 30px 30px 30px;
+    opacity: 100%;
+}
+
+.bg-login {
+    background-image: url('../images/bg-login.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.bg-guru {
+    background-image: url('../images/bg-guru.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.bg-bawah {
+    background-image: url('../images/bg_header.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.bg-utama2 {
+    background-color: #40513B;
+}
+
+.bgw-utama {
+    background-color: #56D400;
+    /* padding: 10px; */
+}
+
+.bgw-utama3 {
+    background-color: #1E4901;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    background: #fff;
+    /*background: url(http://www.secretsofthefed.com/wp-content/uploads/2013/04/The-Night-Sky-Wallpaper.jpg) top center no-repeat;*/
+    background-size: cover;
+    font-family: 'Source Sans Pro', arial, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+#langit {
+    background: transparent;
+}
+
+
+.bulan {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    left: 70px;
+    top: 50px;
+    background: yellow;
+
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+    filter: alpha(opacity=10);
+    opacity: .1;
+
+    border-radius: 50%;
+
+
+    -webkit-animation: bercahaya 1s linear infinite;
+    -moz-animation: bercahaya 3s linear infinite;
+    -ms-animation: bercahaya 1s linear infinite;
+    -o-animation: bercahaya 1s linear infinite;
+    animation: bercahaya 3s linear infinite;
+}
+
+.awan {
+    width: 200px;
+    height: 60px;
+    background: #ffffffdd;
+    border-radius: 200px;
+    position: relative;
+    z-index: 9999;
+}
+
+
+.awan:before,
+.awan:after {
+    content: ' ';
+    position: absolute;
+    background: #ffffffdd;
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    border-radius: 100px;
+    text-transform: rotate(30deg);
+}
+
+.awan:after {
+    width: 120px;
+    height: 120px;
+    top: -55px;
+    left: auto;
+    right: 15px;
+}
+
+.no1 {
+    top: 90px;
+    -webkit-animation: jalankanawan 8s linear infinite;
+    -moz-animation: jalankanawan 8s linear infinite;
+    -ms-animation: jalankanawan 10s linear infinite;
+    -o-animation: jalankanawan 10s linear infinite;
+    animation: jalankanawan 10s linear infinite;
+    opacity: 0.6;
+}
+
+.no2 {
+    left: 250px;
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform: scale(0.6);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=40);
+    opacity: 0.6;
+    -webkit-animation: jalankanawan 12s linear infinite;
+    -moz-animation: jalankanawan 12s linear infinite;
+    -ms-animation: jalankanawan 12s linear infinite;
+    -o-animation: jalankanawan 12s linear infinite;
+    animation: jalankanawan 12s linear infinite;
+}
+
+
+
+
+@-webkit-keyframes jalankanawan {
+    0% {
+        margin-left: 1280px;
+    }
+
+    100% {
+        margin-left: -1280px;
+    }
+}
+
+@-moz-keyframes jalankanawan {
+    0% {
+        margin-left: 1280px;
+    }
+
+    100% {
+        margin-left: -1280px;
+    }
+}
+
+@-o-keyframes jalankanawan {
+    0% {
+        margin-left: 1280px;
+    }
+
+    100% {
+        margin-left: -1280px;
+    }
+}
+
+
+
+@-webkit-keyframes bercahaya {
+    0% {
+        opacity: .6;
+        box-shadow: 3px 3px 35px 35px rgb(255, 247, 0)
+    }
+
+    100% {
+        opacity: .7;
+        box-shadow: 3px 3px 40px 40px rgb(255, 247, 0)
+    }
+}
+
+@-moz-keyframes bercahaya {
+    0% {
+        opacity: .6;
+        box-shadow: 3px 3px 35px 35px rgb(255, 247, 0)
+    }
+
+    100% {
+        opacity: .7;
+        box-shadow: 3px 3px 40px 40px rgb(255, 247, 0)
+    }
+}
+
+@-o-keyframes bercahaya {
+    0% {
+        opacity: .6;
+        box-shadow: 3px 3px 35px 35px rgb(255, 247, 0)
+    }
+
+    100% {
+        opacity: .7;
+        box-shadow: 3px 3px 40px 40px rgb(255, 247, 0)
+    }
+}
+
+h1 {
+    color: #fff;
+    padding: 10px 50px;
+}
+
+h1 small {
+    display: block;
+    font-size: 14px;
+}
+
+.menu {
+    padding: 20px 50px;
+}
+
+.main {
+    padding: 20px 50px;
+    height: auto;
+}
+
+.main a {
+    color: #ffffffdd;
+}
+
+    /* Styling for pop-up button */
+.btn-popup {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #15538d;
+        color: #fff;
+        border: 5px solid #246aab;
+        border-radius: 5px;
+}
+
+.text-awal {
+    color: black;
+    opacity: 70%;
+  }
+  
+  .text-awal:hover {
+    color: red;
+  }
+  
+  .text-hitam {
+    color: black;
+    opacity: 70%;
+  }

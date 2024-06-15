@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "soal": "Hasil dari 12 x 10 – 20 + 50 adalah . . .",
+    "a": "140",
+    "b": "150",
+    "c": "160",
+    "d": "170",
+    "jawaban": "B"
+  },
+  {
+    "id": 2,
+    "soal": "Hasil dari 10 x 10 – 15 + 105 adalah . . .",
+    "a": "170",
+    "b": "180",
+    "c": "190",
+    "d": "200",
+    "jawaban": "C"
+  },
+  {
+    "id": 3,
+    "soal": "Hasil dari 12 + 10 x 6 adalah . . .",
+    "a": "70",
+    "b": "72",
+    "c": "75",
+    "d": "77",
+    "jawaban": "B"
+  },
+  {
+    "id": 4,
+    "soal": "Jika n = 162 x 3 : 18 , nilai n adalah . . .",
+    "a": "9",
+    "b": "18",
+    "c": "27",
+    "d": "36",
+    "jawaban": "C"
+  },
+  {
+    "id": 5,
+    "soal": "Jika n = 40 x 5 : 10 , nilai n adalah . . .",
+    "a": "20",
+    "b": "30",
+    "c": "40",
+    "d": "50",
+    "jawaban": "A"
+  },
+  {
+    "id": 6,
+    "soal": "Hasil dari 108 + 132 - 134 adalah . . .",
+    "a": "36",
+    "b": "44",
+    "c": "106",
+    "d": "144",
+    "jawaban": "C"
+  },
+  {
+    "id": 7,
+    "soal": "Hasil dari 192 : 24 x 2 adalah . . .",
+    "a": "4",
+    "b": "8",
+    "c": "16",
+    "d": "64",
+    "jawaban": "C"
+  },
+  {
+    "id": 8,
+    "soal": "Hasil dari 14 + 10 x 16 - 73 adalah . . .",
+    "a": "91",
+    "b": "101",
+    "c": "111",
+    "d": "121",
+    "jawaban": "B"
+  },
+  {
+    "id": 9,
+    "soal": "Jika n = 10 x 16 : 4 , nilai n adalah . . .",
+    "a": "40",
+    "b": "44",
+    "c": "48",
+    "d": "46",
+    "jawaban": "A"
+  },
+  {
+    "id": 10,
+    "soal": "Jika n = 24 x 5 : 10 , nilai n adalah . . .",
+    "a": "10",
+    "b": "11",
+    "c": "12",
+    "d": "13",
+    "jawaban": "C"
+  }
+]
