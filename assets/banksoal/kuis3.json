@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "soal": "Sebuah peternakan memiliki 125 ekor sapi dan 98 ekor kambing. Jika setiap ekor sapi memiliki 4 kaki dan setiap ekor kambing memiliki 4 kaki, berapa total kaki hewan di peternakan tersebut?",
-    "a": "892",
-    "b": "832",
-    "c": "816",
-    "d": "812",
+    "soal": "Sebuah peternakan memiliki 125 ekor sapi dan 98 ekor kambing, berapa total kaki hewan di peternakan tersebut?",
+    "a": "223",
+    "b": "224",
+    "c": "233",
+    "d": "234",
     "jawaban": "A"
   },
   {

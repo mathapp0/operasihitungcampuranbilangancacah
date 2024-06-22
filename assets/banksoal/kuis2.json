@@ -11,7 +11,7 @@
   {
     "id": 2,
     "soal": "Hitung nilai dari 77 - ( 19 + 8 ) x 2 . . .",
-    "a": "41",
+    "a": "21",
     "b": "23",
     "c": "28",
     "d": "39",
@@ -20,9 +20,9 @@
   {
     "id": 3,
     "soal": "Hitung nilai dari 63 - ( 9 x 5 ) + 24 . . .",
-    "a": "55",
-    "b": "45",
-    "c": "52",
+    "a": "35",
+    "b": "38",
+    "c": "40",
     "d": "42",
     "jawaban": "D"
   },
@@ -48,7 +48,7 @@
     "id": 6,
     "soal": "Yang mana hasil operasi yang benar dari 924 - ( 312 + 156 ) ÷ 13  . . .",
     "a": "869",
-    "b": "912",
+    "b": "878",
     "c": "888",
     "d": "919",
     "jawaban": "C"
@@ -56,9 +56,9 @@
   {
     "id": 7,
     "soal": "Yang mana hasil operasi yang benar dari 540 + 50 x ( 46 + 32 ) . . .",
-    "a": "4500",
-    "b": "4332",
-    "c": "4128",
+    "a": "4400",
+    "b": "4401",
+    "c": "4428",
     "d": "4440",
     "jawaban": "D"
   },
@@ -66,25 +66,25 @@
     "id": 8,
     "soal": "Jika 354 + ( 87 x 42 ) - 135 adalah operasi yang harus diselesaikan, hasilnya adalah . . .",
     "a": "3873",
-    "b": "3393",
-    "c": "3525",
-    "d": "3722",
+    "b": "3783",
+    "c": "3600",
+    "d": "3573",
     "jawaban": "A"
   },
   {
     "id": 9,
     "soal": "Hasil dari 850 : ( 200 - 150 ) adalah . . .",
-    "a": "19",
+    "a": "18",
     "b": "17",
-    "c": "25",
+    "c": "16",
     "d": "15",
     "jawaban": "B"
   },
   {
     "id": 10,
     "soal": "Hasil dari 900 : ( 180 - 90 ) adalah . . .",
-    "a": "15",
-    "b": "19",
+    "a": "8",
+    "b": "9",
     "c": "10",
     "d": "11",
     "jawaban": "C"
