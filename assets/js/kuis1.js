@@ -732,3 +732,14 @@ function coretan() {
     const hasilkuis = document.getElementById("hasilkuis");
     hasilkuis.hidden = false;
   }
+
+  document.getElementById('fileInput').addEventListener('change', function(event) {
+        const fileInput = event.target;
+        const file = fileInput.files[0];
+
+        if (file && !file.type.startsWith('image/')) {
+            alert('Hanya file gambar yang diperbolehkan!');
+            fileInput.value = ''; // Reset input
+        }
+    });
+  
